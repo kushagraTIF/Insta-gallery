@@ -7,7 +7,7 @@ export default function Home() {
 
   useEffect(() => {
     // Ensure your environment variable is correctly named and accessible
-    const url = `https://graph.instagram.com/me/media?fields=id,caption,media_url&access_token=IGQWROMEs1RWRyOUkwSXU0aG5KQUtwMGN2MzNfS2tPSVJsOUhDUHl1ejl1bTVoZAEEyMVlTZA0V5Rmp5a0JSTWlvckFtNHBxVFdOVldrQ1ZAWYlJ5bmxyR2JSWGtzTTVWVjEtSkxCVmhKMkM0RF81TVYwOGdja0xlYmcZD`;
+    const url = `https://graph.instagram.com/me/media?fields=id,caption,media_url&access_token=IGQWRNQkFQR3haUjlMTW1WeWEta2tiaW5jTl9jdzZACajRGcXZAMTWh3ZAUZAnZA3hZAc2gzSFVSSFBkaWlnZAF81U0pjcWU5R3QxR3I3OUhoU2JDeElBa1lvQWs5cUdDOGFzSjZAZASWM5NWt4SVMzVjhRUEpCOWxYVng1STQZD`;
     // const url = `https://graph.instagram.com/me/media?fields=id,caption&access_token=${process.env.INSTA_KEY}`;
 
     const fetchData = async () => {
